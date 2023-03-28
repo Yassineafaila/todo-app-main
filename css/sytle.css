@@ -278,7 +278,7 @@ body{
 }
 .checkbox input:checked::before{
     background: var(--Check-Background);
-    border: none;
+    border: 1px solid currentColor;
 }
 .checkbox input:checked::after{
     position: absolute;
