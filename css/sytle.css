@@ -286,6 +286,9 @@ body{
     font-family: 'FontAwesome';
     color: #ffffffff;
     font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .task-container .task{
     color: var(--text);
